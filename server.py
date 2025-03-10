@@ -35,7 +35,7 @@ HTML_TEMPLATE = """
     </style>
 </head>
 <body>
-    <h1>Simple File Manager</h1>
+    <h1>Python Simple File Manager</h1>
     
     {% for category, message in get_flashed_messages(with_categories=true) %}
         <div class="message {{ category }}">{{ message }}</div>
@@ -67,6 +67,9 @@ HTML_TEMPLATE = """
             <p>No files uploaded yet.</p>
         {% endif %}
     </div>
+    <blockquote>
+        <em>Necessity is the mother of inventions - Plato</em>
+    </blockquote>
 </body>
 </html>
 """
